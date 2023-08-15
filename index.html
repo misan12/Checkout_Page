@@ -1,0 +1,92 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/911500f635.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+    <h1 class="heading" id="hea">Checkout Page</h1>
+
+<div class="o" id="o2">
+    <div class="Checkout_items">
+    <section id="first">
+        <div class="item1" id="rr">
+            <img src="Image1.webp" alt="Image Of a PS5">
+            <span class="title">PS5 Digital Edition</span>
+            <div class="qty">
+                <button class="btn" onclick="changeqty1" id="qtyadd"><i class="fa-solid fa-plus"></i></button>
+                <span id="num">0</span>
+                <button class="btn" onclick="changeqty2" id="qtysub"><i class="fa-solid fa-minus"></i></button>
+            </div>
+            <div><p id="k">£ <span id="price">0</span></p></div>
+            <div class="del">
+                <button class="btn" onclick="remove" id="ty"><i class="fa-solid fa-trash"></i></button>
+            </div>
+        </div>
+
+        <div class="item2" id="rr2">
+            <img src="Image 2.avif" alt="Image Of a PS5">
+            <span class="title">Galaxy Flip Z</span>
+            <div class="qty">
+                <button class="btn" onclick="changeqty12" id="qtyadd2"><i class="fa-solid fa-plus"></i></button>
+                <span id="num2">0</span>
+                <button class="btn" onclick="changeqty22" id="qtysub2"><i class="fa-solid fa-minus"></i></button>
+            </div>
+            <div><p id="k">£ <span id="price2">0</span></p></div>
+            <div class="del">
+                <button class="btn"  id="ty2" onclick="remove2nd"><i class="fa-solid fa-trash"></i></button>
+            </div>
+        </div>
+
+        <div class="item3" id="rr3">
+            <img src="image 3.jpg" alt="Image Of a PS5">
+            <span class="title">Samsung UHD TV</span>
+            <div class="qty">
+                <button class="btn" onclick="changeqty13" id="qtyadd3"><i class="fa-solid fa-plus"></i></button>
+                <span id="num3">0</span>
+                <button class="btn" onclick="changeqty23" id="qtysub3"><i class="fa-solid fa-minus"></i></button>
+            </div>
+            <div><p id="k">£ <span id="price3">0</span></p></div>
+            <div class="del" >
+                <button class="btn" id="ty3" onclick="remove3"><i class="fa-solid fa-trash"></i></button>
+            </div>
+        </div>
+
+       
+    </section>
+    </div>
+    <div class="Checkout_sum">
+    <section class="we">
+       
+        <div class="bg">
+            <h1 class="heading2">Summary</h1>
+            <div class="w">
+                <h3>Total Items</h3>
+                <p><span id="tis">0</span></p>
+            </div>
+            <div class="w">
+                <h3>Total Amount</h3>
+                <p>£ <span id="tas">0</span></p>
+            </div>
+            <button class="btn" onclick="yh" id="click">
+                <div class="cbth">
+                    <a href="#"><p>Checkout</p></a>
+                </div>
+            </button>
+        </div>
+    </section>
+    </div>
+</div>
+
+
+<div class="end" id="end2">
+    <h2>Thank You For The Purchase.</h2>
+    <span><img src="Animation - 1692013685135.gif" alt=""></span>
+</div>
+
+    <script src="main.js"></script>
+ </body>
+ </html>

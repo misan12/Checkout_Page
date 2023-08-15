@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1.5px solid #D0CFCF;
+    width: 35%;
+    padding: 0 0 10px 0;
+    margin-left: 23px;
+    font-weight: 200;
+}
+
+.btn{
+    border: none;
+    background-color: transparent;
+}
+
+.btn6{
+    border: none;
+    background-color: transparent;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.item1{
+    display: flex;
+    gap: 4em;
+    border-radius: 15px;
+    box-shadow: 0px 1px 4px 0px #00000040;
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+    margin: 40px 0 0 23px;
+}
+.item1 img{
+    width: 23%;
+    border-radius: 8px;
+}
+.title, .qty, .del{
+    padding-top: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.item1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.item1 #k{
+    padding-top: 41px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    display: flex;
+}
+
+.item2{
+    display: flex;
+    gap: 4em;
+    border-radius: 15px;
+    box-shadow: 0px 1px 4px 0px #00000040;
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+    margin: 40px 0 0 23px;
+}
+.item2 img{
+    width: 23%;
+    border-radius: 8px;
+}
+
+.item2 .qty{
+    padding-left: 50px;
+}
+.title, .qty, .del{
+    padding-top: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.item2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.item2 #k{
+    padding-top: 41px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    display: flex;
+}
+
+.item3{
+    display: flex;
+    gap: 4em;
+    border-radius: 15px;
+    box-shadow: 0px 1px 4px 0px #00000040;
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+    margin: 40px 0 0 23px;
+}
+.item3 .qty{
+    padding-left: 8px;
+}
+.item3 img{
+    width: 23%;
+    border-radius: 8px;
+}
+.title, .qty, .del{
+    padding-top: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.item3 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.item3 #k{
+    padding-top: 41px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    display: flex;
+}
+
+.w{
+    display: flex;
+    gap: 3em;
+}
+
+.w h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    margin-left: 23px;
+    color: white;
+}
+
+.w p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    padding-top: 2.5px;
+    font-size: 18px;
+    margin-left: 23px;
+    color: white;
+}
+.bg{
+    background-color: #565ABB;
+    border-radius: 20px;
+    width: 18.4em;
+    margin-left: 23px;
+    padding: 15px 15px 15px 15px;
+}
+
+.o{
+    display: flex;
+}
+
+.Checkout_sum{
+    z-index: 999;
+    margin: 0 0 0 55em;
+    position: absolute;
+    width: 388px;
+    height: 644px;
+    top: 7em;
+    /* left: 708px; */
+    border-radius: 20px;
+
+}
+
+.heading2{
+    font-family: 'Varela Round', sans-serif;
+    border-bottom: 1.5px solid #D0CFCF;
+    width: 52%;
+    padding: 0 0 10px 0;
+    margin-left: 23px;
+    font-weight: 200;
+    color: white;
+}
+
+.cbth{
+    width: 200px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background-color: #4DE1C1;
+    margin-top: 20px;
+    margin-left: 44px;
+}
+.cbth{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 0.7px 0 10px 0 ;
+}
+
+.cbth a{
+    text-decoration: none;
+    color: white;
+}
+.cbth:hover{
+    background-color: #4cb09b;
+}
+
+
+
+
+.end h2{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 500;
+    color: cyan;
+    text-align: center;
+    padding: 0.7px 0 10px 0 ;
+}
+
+.end img{
+    width: 50px;
+    padding-left: 8.5em;
+}
+
+.end{
+    position: absolute;
+    margin: 0px 0 0 570px;
+    top: 17em;
+    border-radius: 15px;
+    box-shadow: 0px 1px 4px 0px #00000040;
+    width: 20em;
+    padding: 10px;
+    z-index: 1;
+    background-color: white;
+    opacity: 0;
+    display: initial;
+}
