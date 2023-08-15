@@ -8,6 +8,9 @@ var b2 = document.getElementById("ty2")
 var b3 = document.getElementById("ty3")
 var m = document.getElementById("tis")
 var l = document.getElementById("tas")
+var newLike = document.getElementById("lkj")
+var newLike2 = document.getElementById("lkj2")
+var newLike3 = document.getElementById("lkj3")
 
 var newClick = document.getElementById("click")
 
@@ -120,6 +123,23 @@ function addItems() {
     m.textContent = quantity+quantity2+quantity3
 }
 
+let r = function like(){
+    const uy = document.getElementById("pos")
+    uy.style.color = 'red';
+
+}
+
+let y = function like2(){
+    const uy = document.getElementById("pos2")
+    uy.style.color = 'red';
+
+}
+
+let n = function like3(){
+    const uy = document.getElementById("pos3")
+    uy.style.color = 'red';
+
+}
 
 
 btn.addEventListener("click", addBtnClick);
@@ -130,6 +150,10 @@ bbtn2.addEventListener("click", subBtnClick2)
 
 bbbtn.addEventListener("click", addBtnClick3);
 bbbtn2.addEventListener("click", subBtnClick3);
+
+newLike.addEventListener("click", r)
+newLike2.addEventListener("click", y)
+newLike3.addEventListener("click", n)
 
 
 
@@ -178,7 +202,7 @@ var d3 = function remove3(){
 }
 
 b3.addEventListener("click", d3);
-delete quantity
+
 var lo = function yh(){
     var elem = document.getElementById("o2")
     var elem2 = document.getElementById("end2")
@@ -187,7 +211,7 @@ var lo = function yh(){
     elem.style.transition = '0.5s ease-in-out'
     elem2.style.opacity = '1'
     elem2.style.transition = '0.5s ease-in-out'
-    elem2.style.display = 
+    elem2.style.display = 'inline'
     elem3.style.opacity = '0'
     elem3.style.transition = '0.5s ease-in-out'
 }

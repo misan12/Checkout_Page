@@ -30,7 +30,7 @@
     gap: 4em;
     border-radius: 15px;
     box-shadow: 0px 1px 4px 0px #00000040;
-    width: 50%;
+    width: 53%;
     padding: 10px 10px 10px 10px;
     margin: 40px 0 0 23px;
 }
@@ -59,7 +59,7 @@
     gap: 4em;
     border-radius: 15px;
     box-shadow: 0px 1px 4px 0px #00000040;
-    width: 50%;
+    width: 53%;
     padding: 10px 10px 10px 10px;
     margin: 40px 0 0 23px;
 }
@@ -92,7 +92,7 @@
     gap: 4em;
     border-radius: 15px;
     box-shadow: 0px 1px 4px 0px #00000040;
-    width: 50%;
+    width: 53%;
     padding: 10px 10px 10px 10px;
     margin: 40px 0 0 23px;
 }
@@ -225,5 +225,5 @@
     z-index: 1;
     background-color: white;
     opacity: 0;
-    display: initial;
+    display: none;
 }
